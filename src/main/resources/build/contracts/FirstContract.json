@@ -1,0 +1,117 @@
+{
+  "contractName": "FirstContract",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/FirstContract.sol\":\"FirstContract\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/FirstContract.sol\":{\"keccak256\":\"0x4ae658677c6241f71362fd89de32cd8067b98d8f29fc941ba470dd92534d0027\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://0162917eb48c99354b406a0286e2f5cd862dd2c8ea38daa5bf480c7272708498\",\"dweb:/ipfs/QmPAnL1p8qGGYamjynh4WAhz8ZZjMSRCDuTurzcKHoJTZ9\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea26469706673582212200f612b32e6a45b116c3d3eea776cc652290bada6db0568ba944c6492dc66f9b464736f6c63430008110033",
+  "deployedBytecode": "0x6080604052600080fdfea26469706673582212200f612b32e6a45b116c3d3eea776cc652290bada6db0568ba944c6492dc66f9b464736f6c63430008110033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "66:55:0:-:0;;;93:26;;;;;;;;;;66:55;;;;;;",
+  "deployedSourceMap": "66:55:0:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.4.22 <0.9.0;\n\ncontract FirstContract {\n  constructor() public {\n  }\n}\n",
+  "sourcePath": "D:\\intellijproject\\ethreumdapp\\ethreumdapp\\src\\main\\resources\\contracts\\FirstContract.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/FirstContract.sol",
+    "exportedSymbols": {
+      "FirstContract": [
+        6
+      ]
+    },
+    "id": 7,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:32:0"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "FirstContract",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 6,
+        "linearizedBaseContracts": [
+          6
+        ],
+        "name": "FirstContract",
+        "nameLocation": "75:13:0",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 4,
+              "nodeType": "Block",
+              "src": "114:5:0",
+              "statements": []
+            },
+            "id": 5,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nameLocation": "-1:-1:-1",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 2,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "104:2:0"
+            },
+            "returnParameters": {
+              "id": 3,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "114:0:0"
+            },
+            "scope": 6,
+            "src": "93:26:0",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "scope": 7,
+        "src": "66:55:0",
+        "usedErrors": []
+      }
+    ],
+    "src": "32:90:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.17+commit.8df45f5f.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.11",
+  "updatedAt": "2022-12-28T16:09:08.666Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}

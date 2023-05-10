@@ -1,0 +1,1676 @@
+[2022/12/26 13:42:34.677] - Starting server with initial configuration: {"gasLimit":6721975,"gasPrice":20000000000,"hardfork":"muirGlacier","hostname":"127.0.0.1","port":7545,"network_id":5777,"default_balance_ether":100,"total_accounts":10,"unlocked_accounts":[],"locked":false,"vmErrorsOnRPCResponse":true,"verbose":true,"db_path":"C:\\Users\\msmas\\AppData\\Roaming\\Ganache\\workspaces\\Quickstart\\chaindata","logDirectory":"D:\\intellijproject\\ethreumdapp\\ethreumdapp\\bin\\src\\main\\resources\\smart_contract\\ganache logging"}
+[2022/12/26 13:42:34.695] -  <   {
+ <     "id": 1672040554650,
+ <     "jsonrpc": "2.0",
+ <     "result": true
+ <   }
+[2022/12/26 13:42:34.957] - eth_subscribe
+[2022/12/26 13:42:34.958] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 73,
+   >   "method": "eth_subscribe",
+   >   "params": [
+   >     "newHeads"
+   >   ]
+   > }
+[2022/12/26 13:42:34.958] - eth_getLogs
+[2022/12/26 13:42:34.958] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 74,
+   >   "method": "eth_getLogs",
+   >   "params": [
+   >     {
+   >       "topics": []
+   >     }
+   >   ]
+   > }
+[2022/12/26 13:42:34.959] - eth_subscribe
+[2022/12/26 13:42:34.959] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 75,
+   >   "method": "eth_subscribe",
+   >   "params": [
+   >     "logs",
+   >     {
+   >       "topics": []
+   >     }
+   >   ]
+   > }
+[2022/12/26 13:42:34.960] -  <   {
+ <     "id": 73,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x1"
+ <   }
+[2022/12/26 13:42:34.967] -  <   {
+ <     "id": 74,
+ <     "jsonrpc": "2.0",
+ <     "result": []
+ <   }
+[2022/12/26 13:42:34.968] -  <   {
+ <     "id": 75,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x2"
+ <   }
+[2022/12/26 13:42:34.988] - eth_subscribe
+[2022/12/26 13:42:34.989] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 76,
+   >   "method": "eth_subscribe",
+   >   "params": [
+   >     "newHeads"
+   >   ]
+   > }
+[2022/12/26 13:42:34.989] - eth_getLogs
+[2022/12/26 13:42:34.989] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 77,
+   >   "method": "eth_getLogs",
+   >   "params": [
+   >     {
+   >       "topics": []
+   >     }
+   >   ]
+   > }
+[2022/12/26 13:42:34.990] - eth_subscribe
+[2022/12/26 13:42:34.990] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 78,
+   >   "method": "eth_subscribe",
+   >   "params": [
+   >     "logs",
+   >     {
+   >       "topics": []
+   >     }
+   >   ]
+   > }
+[2022/12/26 13:42:34.990] -  <   {
+ <     "id": 76,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x3"
+ <   }
+[2022/12/26 13:42:34.994] -  <   {
+ <     "id": 77,
+ <     "jsonrpc": "2.0",
+ <     "result": []
+ <   }
+[2022/12/26 13:42:35.004] -  <   {
+ <     "id": 78,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x4"
+ <   }
+[2022/12/26 13:42:35.005] - eth_blockNumber
+[2022/12/26 13:42:35.005] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 840,
+   >   "method": "eth_blockNumber",
+   >   "params": [],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.006] - eth_accounts
+[2022/12/26 13:42:35.006] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 841,
+   >   "method": "eth_accounts",
+   >   "params": [],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.006] - eth_gasPrice
+[2022/12/26 13:42:35.006] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 842,
+   >   "method": "eth_gasPrice",
+   >   "params": [],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.006] -  <   {
+ <     "id": 840,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x0"
+ <   }
+[2022/12/26 13:42:35.007] - eth_getBlockByNumber
+[2022/12/26 13:42:35.007] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 843,
+   >   "method": "eth_getBlockByNumber",
+   >   "params": [
+   >     "latest",
+   >     false
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.007] - eth_subscribe
+[2022/12/26 13:42:35.008] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 844,
+   >   "method": "eth_subscribe",
+   >   "params": [
+   >     "newHeads"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.012] -  <   {
+ <     "id": 841,
+ <     "jsonrpc": "2.0",
+ <     "result": [
+ <       "0xe1e266dd361a7ca3b0b6dcdc3296572d0bf8f3a3",
+ <       "0xd0df90c6aa57d1695bccb41ddec414702b10343f",
+ <       "0x73bd9a472fae66d8c1034f38fcaa4c0431284e4f",
+ <       "0x5a5265d3900ff1df1f7e16c295ea26be90cd02fb",
+ <       "0xd91cf4750fd4bc313f446ca6c9cefc73f728e2c8",
+ <       "0x59f65f88b2507644d74f037d5f0e17012049bdb4",
+ <       "0xce66f17aecc6cef73d44aceb5ba7d19e4a17a52f",
+ <       "0x133326ef4d171bcbfd90f3fb2acd3e0b0529ecda",
+ <       "0x5e42cf88b9cb53dd50ff4ae2220f17d9f85b67be",
+ <       "0x7cd27f4a8257b7b804997818e46c8a7eb47ba7a4"
+ <     ]
+ <   }
+[2022/12/26 13:42:35.012] - eth_accounts
+[2022/12/26 13:42:35.013] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 845,
+   >   "method": "eth_accounts",
+   >   "params": [],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.013] - eth_blockNumber
+[2022/12/26 13:42:35.013] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 835,
+   >   "method": "eth_blockNumber",
+   >   "params": [],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.013] - eth_accounts
+[2022/12/26 13:42:35.014] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 836,
+   >   "method": "eth_accounts",
+   >   "params": [],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.015] -  <   {
+ <     "id": 842,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x4a817c800"
+ <   }
+[2022/12/26 13:42:35.015] - eth_gasPrice
+[2022/12/26 13:42:35.016] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 837,
+   >   "method": "eth_gasPrice",
+   >   "params": [],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.016] - eth_getBlockByNumber
+[2022/12/26 13:42:35.016] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 838,
+   >   "method": "eth_getBlockByNumber",
+   >   "params": [
+   >     "latest",
+   >     false
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.016] - eth_subscribe
+[2022/12/26 13:42:35.017] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 839,
+   >   "method": "eth_subscribe",
+   >   "params": [
+   >     "newHeads"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.020] -  <   {
+ <     "id": 843,
+ <     "jsonrpc": "2.0",
+ <     "result": {
+ <       "number": "0x0",
+ <       "hash": "0xea2ba28845eb0649cd05637e473968030e9ec0d88bbd16bac58acacca39aa7b5",
+ <       "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+ <       "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+ <       "nonce": "0x0000000000000000",
+ <       "sha3Uncles": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+ <       "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+ <       "transactionsRoot": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+ <       "stateRoot": "0x0252d29bc0f7b54f1693b3e6f89506e88d4d52e81ab5ca812f0d3b8402cf2ff0",
+ <       "receiptsRoot": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+ <       "miner": "0x0000000000000000000000000000000000000000",
+ <       "difficulty": "0x0",
+ <       "totalDifficulty": "0x0",
+ <       "extraData": "0x",
+ <       "size": "0x3e8",
+ <       "gasLimit": "0x6691b7",
+ <       "gasUsed": "0x0",
+ <       "timestamp": "0x63a9506a",
+ <       "transactions": [],
+ <       "uncles": []
+ <     }
+ <   }
+[2022/12/26 13:42:35.023] -  <   {
+ <     "id": 844,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x5"
+ <   }
+[2022/12/26 13:42:35.023] - eth_getBalance
+[2022/12/26 13:42:35.024] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 846,
+   >   "method": "eth_getBalance",
+   >   "params": [
+   >     "0xe1e266dd361a7ca3b0b6dcdc3296572d0bf8f3a3",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.025] -  <   {
+ <     "id": 845,
+ <     "jsonrpc": "2.0",
+ <     "result": [
+ <       "0xe1e266dd361a7ca3b0b6dcdc3296572d0bf8f3a3",
+ <       "0xd0df90c6aa57d1695bccb41ddec414702b10343f",
+ <       "0x73bd9a472fae66d8c1034f38fcaa4c0431284e4f",
+ <       "0x5a5265d3900ff1df1f7e16c295ea26be90cd02fb",
+ <       "0xd91cf4750fd4bc313f446ca6c9cefc73f728e2c8",
+ <       "0x59f65f88b2507644d74f037d5f0e17012049bdb4",
+ <       "0xce66f17aecc6cef73d44aceb5ba7d19e4a17a52f",
+ <       "0x133326ef4d171bcbfd90f3fb2acd3e0b0529ecda",
+ <       "0x5e42cf88b9cb53dd50ff4ae2220f17d9f85b67be",
+ <       "0x7cd27f4a8257b7b804997818e46c8a7eb47ba7a4"
+ <     ]
+ <   }
+[2022/12/26 13:42:35.026] - eth_getTransactionCount
+[2022/12/26 13:42:35.026] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 847,
+   >   "method": "eth_getTransactionCount",
+   >   "params": [
+   >     "0xe1e266dd361a7ca3b0b6dcdc3296572d0bf8f3a3",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.029] -  <   {
+ <     "id": 835,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x0"
+ <   }
+[2022/12/26 13:42:35.029] - eth_getBalance
+[2022/12/26 13:42:35.029] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 848,
+   >   "method": "eth_getBalance",
+   >   "params": [
+   >     "0xd0df90c6aa57d1695bccb41ddec414702b10343f",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.030] -  <   {
+ <     "id": 836,
+ <     "jsonrpc": "2.0",
+ <     "result": [
+ <       "0xe1e266dd361a7ca3b0b6dcdc3296572d0bf8f3a3",
+ <       "0xd0df90c6aa57d1695bccb41ddec414702b10343f",
+ <       "0x73bd9a472fae66d8c1034f38fcaa4c0431284e4f",
+ <       "0x5a5265d3900ff1df1f7e16c295ea26be90cd02fb",
+ <       "0xd91cf4750fd4bc313f446ca6c9cefc73f728e2c8",
+ <       "0x59f65f88b2507644d74f037d5f0e17012049bdb4",
+ <       "0xce66f17aecc6cef73d44aceb5ba7d19e4a17a52f",
+ <       "0x133326ef4d171bcbfd90f3fb2acd3e0b0529ecda",
+ <       "0x5e42cf88b9cb53dd50ff4ae2220f17d9f85b67be",
+ <       "0x7cd27f4a8257b7b804997818e46c8a7eb47ba7a4"
+ <     ]
+ <   }
+[2022/12/26 13:42:35.031] - eth_getTransactionCount
+[2022/12/26 13:42:35.032] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 849,
+   >   "method": "eth_getTransactionCount",
+   >   "params": [
+   >     "0xd0df90c6aa57d1695bccb41ddec414702b10343f",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.034] -  <   {
+ <     "id": 837,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x4a817c800"
+ <   }
+[2022/12/26 13:42:35.034] - eth_getBalance
+[2022/12/26 13:42:35.034] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 850,
+   >   "method": "eth_getBalance",
+   >   "params": [
+   >     "0x73bd9a472fae66d8c1034f38fcaa4c0431284e4f",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.052] -  <   {
+ <     "id": 838,
+ <     "jsonrpc": "2.0",
+ <     "result": {
+ <       "number": "0x0",
+ <       "hash": "0xea2ba28845eb0649cd05637e473968030e9ec0d88bbd16bac58acacca39aa7b5",
+ <       "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+ <       "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+ <       "nonce": "0x0000000000000000",
+ <       "sha3Uncles": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+ <       "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+ <       "transactionsRoot": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+ <       "stateRoot": "0x0252d29bc0f7b54f1693b3e6f89506e88d4d52e81ab5ca812f0d3b8402cf2ff0",
+ <       "receiptsRoot": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+ <       "miner": "0x0000000000000000000000000000000000000000",
+ <       "difficulty": "0x0",
+ <       "totalDifficulty": "0x0",
+ <       "extraData": "0x",
+ <       "size": "0x3e8",
+ <       "gasLimit": "0x6691b7",
+ <       "gasUsed": "0x0",
+ <       "timestamp": "0x63a9506a",
+ <       "transactions": [],
+ <       "uncles": []
+ <     }
+ <   }
+[2022/12/26 13:42:35.057] -  <   {
+ <     "id": 839,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x6"
+ <   }
+[2022/12/26 13:42:35.058] - eth_getTransactionCount
+[2022/12/26 13:42:35.058] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 851,
+   >   "method": "eth_getTransactionCount",
+   >   "params": [
+   >     "0x73bd9a472fae66d8c1034f38fcaa4c0431284e4f",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.061] -  <   {
+ <     "id": 846,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x56bc75e2d63100000"
+ <   }
+[2022/12/26 13:42:35.062] - eth_getBalance
+[2022/12/26 13:42:35.062] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 852,
+   >   "method": "eth_getBalance",
+   >   "params": [
+   >     "0x5a5265d3900ff1df1f7e16c295ea26be90cd02fb",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.066] -  <   {
+ <     "id": 847,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x0"
+ <   }
+[2022/12/26 13:42:35.067] - eth_getTransactionCount
+[2022/12/26 13:42:35.067] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 853,
+   >   "method": "eth_getTransactionCount",
+   >   "params": [
+   >     "0x5a5265d3900ff1df1f7e16c295ea26be90cd02fb",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.071] -  <   {
+ <     "id": 848,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x56bc75e2d63100000"
+ <   }
+[2022/12/26 13:42:35.072] - eth_getBalance
+[2022/12/26 13:42:35.072] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 854,
+   >   "method": "eth_getBalance",
+   >   "params": [
+   >     "0xd91cf4750fd4bc313f446ca6c9cefc73f728e2c8",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.076] -  <   {
+ <     "id": 849,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x0"
+ <   }
+[2022/12/26 13:42:35.077] - eth_getTransactionCount
+[2022/12/26 13:42:35.077] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 855,
+   >   "method": "eth_getTransactionCount",
+   >   "params": [
+   >     "0xd91cf4750fd4bc313f446ca6c9cefc73f728e2c8",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.082] -  <   {
+ <     "id": 850,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x56bc75e2d63100000"
+ <   }
+[2022/12/26 13:42:35.083] - eth_getBalance
+[2022/12/26 13:42:35.083] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 856,
+   >   "method": "eth_getBalance",
+   >   "params": [
+   >     "0x59f65f88b2507644d74f037d5f0e17012049bdb4",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.086] -  <   {
+ <     "id": 851,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x0"
+ <   }
+[2022/12/26 13:42:35.087] - eth_getTransactionCount
+[2022/12/26 13:42:35.087] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 857,
+   >   "method": "eth_getTransactionCount",
+   >   "params": [
+   >     "0x59f65f88b2507644d74f037d5f0e17012049bdb4",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.092] -  <   {
+ <     "id": 852,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x56bc75e2d63100000"
+ <   }
+[2022/12/26 13:42:35.092] - eth_getBalance
+[2022/12/26 13:42:35.092] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 858,
+   >   "method": "eth_getBalance",
+   >   "params": [
+   >     "0xce66f17aecc6cef73d44aceb5ba7d19e4a17a52f",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.096] -  <   {
+ <     "id": 853,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x0"
+ <   }
+[2022/12/26 13:42:35.096] - eth_getTransactionCount
+[2022/12/26 13:42:35.096] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 859,
+   >   "method": "eth_getTransactionCount",
+   >   "params": [
+   >     "0xce66f17aecc6cef73d44aceb5ba7d19e4a17a52f",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.100] -  <   {
+ <     "id": 854,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x56bc75e2d63100000"
+ <   }
+[2022/12/26 13:42:35.102] -  <   {
+ <     "id": 855,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x0"
+ <   }
+[2022/12/26 13:42:35.102] - eth_getBalance
+[2022/12/26 13:42:35.102] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 860,
+   >   "method": "eth_getBalance",
+   >   "params": [
+   >     "0x133326ef4d171bcbfd90f3fb2acd3e0b0529ecda",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.106] -  <   {
+ <     "id": 856,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x56bc75e2d63100000"
+ <   }
+[2022/12/26 13:42:35.107] - eth_getTransactionCount
+[2022/12/26 13:42:35.107] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 861,
+   >   "method": "eth_getTransactionCount",
+   >   "params": [
+   >     "0x133326ef4d171bcbfd90f3fb2acd3e0b0529ecda",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.111] -  <   {
+ <     "id": 857,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x0"
+ <   }
+[2022/12/26 13:42:35.112] - eth_getBalance
+[2022/12/26 13:42:35.112] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 862,
+   >   "method": "eth_getBalance",
+   >   "params": [
+   >     "0x5e42cf88b9cb53dd50ff4ae2220f17d9f85b67be",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.114] -  <   {
+ <     "id": 858,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x56bc75e2d63100000"
+ <   }
+[2022/12/26 13:42:35.115] - eth_getTransactionCount
+[2022/12/26 13:42:35.115] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 863,
+   >   "method": "eth_getTransactionCount",
+   >   "params": [
+   >     "0x5e42cf88b9cb53dd50ff4ae2220f17d9f85b67be",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.118] -  <   {
+ <     "id": 859,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x0"
+ <   }
+[2022/12/26 13:42:35.118] - eth_getBalance
+[2022/12/26 13:42:35.118] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 864,
+   >   "method": "eth_getBalance",
+   >   "params": [
+   >     "0x7cd27f4a8257b7b804997818e46c8a7eb47ba7a4",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.121] -  <   {
+ <     "id": 860,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x56bc75e2d63100000"
+ <   }
+[2022/12/26 13:42:35.122] - eth_getTransactionCount
+[2022/12/26 13:42:35.122] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 865,
+   >   "method": "eth_getTransactionCount",
+   >   "params": [
+   >     "0x7cd27f4a8257b7b804997818e46c8a7eb47ba7a4",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.133] -  <   {
+ <     "id": 861,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x0"
+ <   }
+[2022/12/26 13:42:35.147] -  <   {
+ <     "id": 862,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x56bc75e2d63100000"
+ <   }
+[2022/12/26 13:42:35.164] -  <   {
+ <     "id": 863,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x0"
+ <   }
+[2022/12/26 13:42:35.179] -  <   {
+ <     "id": 864,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x56bc75e2d63100000"
+ <   }
+[2022/12/26 13:42:35.195] -  <   {
+ <     "id": 865,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x0"
+ <   }
+[2022/12/26 13:42:35.203] - eth_getBalance
+[2022/12/26 13:42:35.203] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 867,
+   >   "method": "eth_getBalance",
+   >   "params": [
+   >     "0xe1e266dd361a7ca3b0b6dcdc3296572d0bf8f3a3",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.203] - eth_getTransactionCount
+[2022/12/26 13:42:35.203] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 868,
+   >   "method": "eth_getTransactionCount",
+   >   "params": [
+   >     "0xe1e266dd361a7ca3b0b6dcdc3296572d0bf8f3a3",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.203] - eth_getBalance
+[2022/12/26 13:42:35.204] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 869,
+   >   "method": "eth_getBalance",
+   >   "params": [
+   >     "0xd0df90c6aa57d1695bccb41ddec414702b10343f",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.204] - eth_getTransactionCount
+[2022/12/26 13:42:35.204] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 870,
+   >   "method": "eth_getTransactionCount",
+   >   "params": [
+   >     "0xd0df90c6aa57d1695bccb41ddec414702b10343f",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.206] -  <   {
+ <     "id": 867,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x56bc75e2d63100000"
+ <   }
+[2022/12/26 13:42:35.206] - eth_getBalance
+[2022/12/26 13:42:35.206] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 871,
+   >   "method": "eth_getBalance",
+   >   "params": [
+   >     "0x73bd9a472fae66d8c1034f38fcaa4c0431284e4f",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.210] -  <   {
+ <     "id": 868,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x0"
+ <   }
+[2022/12/26 13:42:35.211] - eth_getTransactionCount
+[2022/12/26 13:42:35.211] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 872,
+   >   "method": "eth_getTransactionCount",
+   >   "params": [
+   >     "0x73bd9a472fae66d8c1034f38fcaa4c0431284e4f",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.218] -  <   {
+ <     "id": 869,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x56bc75e2d63100000"
+ <   }
+[2022/12/26 13:42:35.219] - eth_getBalance
+[2022/12/26 13:42:35.219] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 873,
+   >   "method": "eth_getBalance",
+   >   "params": [
+   >     "0x5a5265d3900ff1df1f7e16c295ea26be90cd02fb",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.220] - eth_getTransactionCount
+[2022/12/26 13:42:35.220] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 874,
+   >   "method": "eth_getTransactionCount",
+   >   "params": [
+   >     "0x5a5265d3900ff1df1f7e16c295ea26be90cd02fb",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.221] -  <   {
+ <     "id": 870,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x0"
+ <   }
+[2022/12/26 13:42:35.223] -  <   {
+ <     "id": 871,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x56bc75e2d63100000"
+ <   }
+[2022/12/26 13:42:35.223] - eth_getBalance
+[2022/12/26 13:42:35.224] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 875,
+   >   "method": "eth_getBalance",
+   >   "params": [
+   >     "0xd91cf4750fd4bc313f446ca6c9cefc73f728e2c8",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.226] -  <   {
+ <     "id": 872,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x0"
+ <   }
+[2022/12/26 13:42:35.226] - eth_getTransactionCount
+[2022/12/26 13:42:35.226] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 876,
+   >   "method": "eth_getTransactionCount",
+   >   "params": [
+   >     "0xd91cf4750fd4bc313f446ca6c9cefc73f728e2c8",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.228] -  <   {
+ <     "id": 873,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x56bc75e2d63100000"
+ <   }
+[2022/12/26 13:42:35.229] - eth_getBalance
+[2022/12/26 13:42:35.229] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 877,
+   >   "method": "eth_getBalance",
+   >   "params": [
+   >     "0x59f65f88b2507644d74f037d5f0e17012049bdb4",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.231] -  <   {
+ <     "id": 874,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x0"
+ <   }
+[2022/12/26 13:42:35.231] - eth_getTransactionCount
+[2022/12/26 13:42:35.231] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 878,
+   >   "method": "eth_getTransactionCount",
+   >   "params": [
+   >     "0x59f65f88b2507644d74f037d5f0e17012049bdb4",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.234] -  <   {
+ <     "id": 875,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x56bc75e2d63100000"
+ <   }
+[2022/12/26 13:42:35.234] - eth_getBalance
+[2022/12/26 13:42:35.234] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 879,
+   >   "method": "eth_getBalance",
+   >   "params": [
+   >     "0xce66f17aecc6cef73d44aceb5ba7d19e4a17a52f",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.236] -  <   {
+ <     "id": 876,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x0"
+ <   }
+[2022/12/26 13:42:35.236] - eth_getTransactionCount
+[2022/12/26 13:42:35.237] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 880,
+   >   "method": "eth_getTransactionCount",
+   >   "params": [
+   >     "0xce66f17aecc6cef73d44aceb5ba7d19e4a17a52f",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.240] -  <   {
+ <     "id": 877,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x56bc75e2d63100000"
+ <   }
+[2022/12/26 13:42:35.241] - eth_getBalance
+[2022/12/26 13:42:35.241] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 881,
+   >   "method": "eth_getBalance",
+   >   "params": [
+   >     "0x133326ef4d171bcbfd90f3fb2acd3e0b0529ecda",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.243] -  <   {
+ <     "id": 878,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x0"
+ <   }
+[2022/12/26 13:42:35.244] - eth_getTransactionCount
+[2022/12/26 13:42:35.244] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 882,
+   >   "method": "eth_getTransactionCount",
+   >   "params": [
+   >     "0x133326ef4d171bcbfd90f3fb2acd3e0b0529ecda",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.247] -  <   {
+ <     "id": 879,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x56bc75e2d63100000"
+ <   }
+[2022/12/26 13:42:35.247] - eth_getBalance
+[2022/12/26 13:42:35.248] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 883,
+   >   "method": "eth_getBalance",
+   >   "params": [
+   >     "0x5e42cf88b9cb53dd50ff4ae2220f17d9f85b67be",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.249] -  <   {
+ <     "id": 880,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x0"
+ <   }
+[2022/12/26 13:42:35.250] - eth_getTransactionCount
+[2022/12/26 13:42:35.250] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 884,
+   >   "method": "eth_getTransactionCount",
+   >   "params": [
+   >     "0x5e42cf88b9cb53dd50ff4ae2220f17d9f85b67be",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.252] -  <   {
+ <     "id": 881,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x56bc75e2d63100000"
+ <   }
+[2022/12/26 13:42:35.252] - eth_getBalance
+[2022/12/26 13:42:35.252] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 885,
+   >   "method": "eth_getBalance",
+   >   "params": [
+   >     "0x7cd27f4a8257b7b804997818e46c8a7eb47ba7a4",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.254] -  <   {
+ <     "id": 882,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x0"
+ <   }
+[2022/12/26 13:42:35.254] - eth_getTransactionCount
+[2022/12/26 13:42:35.255] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 886,
+   >   "method": "eth_getTransactionCount",
+   >   "params": [
+   >     "0x7cd27f4a8257b7b804997818e46c8a7eb47ba7a4",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.260] -  <   {
+ <     "id": 883,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x56bc75e2d63100000"
+ <   }
+[2022/12/26 13:42:35.263] -  <   {
+ <     "id": 884,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x0"
+ <   }
+[2022/12/26 13:42:35.263] - eth_getBalance
+[2022/12/26 13:42:35.264] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 887,
+   >   "method": "eth_getBalance",
+   >   "params": [
+   >     "0xe1e266dd361a7ca3b0b6dcdc3296572d0bf8f3a3",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.268] -  <   {
+ <     "id": 885,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x56bc75e2d63100000"
+ <   }
+[2022/12/26 13:42:35.268] - eth_getTransactionCount
+[2022/12/26 13:42:35.269] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 888,
+   >   "method": "eth_getTransactionCount",
+   >   "params": [
+   >     "0xe1e266dd361a7ca3b0b6dcdc3296572d0bf8f3a3",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.272] -  <   {
+ <     "id": 886,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x0"
+ <   }
+[2022/12/26 13:42:35.272] - eth_getBalance
+[2022/12/26 13:42:35.272] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 889,
+   >   "method": "eth_getBalance",
+   >   "params": [
+   >     "0xd0df90c6aa57d1695bccb41ddec414702b10343f",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.276] -  <   {
+ <     "id": 887,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x56bc75e2d63100000"
+ <   }
+[2022/12/26 13:42:35.278] - eth_getTransactionCount
+[2022/12/26 13:42:35.278] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 890,
+   >   "method": "eth_getTransactionCount",
+   >   "params": [
+   >     "0xd0df90c6aa57d1695bccb41ddec414702b10343f",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.278] - eth_getBalance
+[2022/12/26 13:42:35.279] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 891,
+   >   "method": "eth_getBalance",
+   >   "params": [
+   >     "0x73bd9a472fae66d8c1034f38fcaa4c0431284e4f",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.279] -  <   {
+ <     "id": 888,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x0"
+ <   }
+[2022/12/26 13:42:35.281] -  <   {
+ <     "id": 889,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x56bc75e2d63100000"
+ <   }
+[2022/12/26 13:42:35.281] - eth_getTransactionCount
+[2022/12/26 13:42:35.282] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 892,
+   >   "method": "eth_getTransactionCount",
+   >   "params": [
+   >     "0x73bd9a472fae66d8c1034f38fcaa4c0431284e4f",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.286] -  <   {
+ <     "id": 890,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x0"
+ <   }
+[2022/12/26 13:42:35.286] - eth_getBalance
+[2022/12/26 13:42:35.287] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 893,
+   >   "method": "eth_getBalance",
+   >   "params": [
+   >     "0x5a5265d3900ff1df1f7e16c295ea26be90cd02fb",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.292] -  <   {
+ <     "id": 891,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x56bc75e2d63100000"
+ <   }
+[2022/12/26 13:42:35.309] -  <   {
+ <     "id": 892,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x0"
+ <   }
+[2022/12/26 13:42:35.310] - eth_getTransactionCount
+[2022/12/26 13:42:35.310] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 894,
+   >   "method": "eth_getTransactionCount",
+   >   "params": [
+   >     "0x5a5265d3900ff1df1f7e16c295ea26be90cd02fb",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.311] -  <   {
+ <     "id": 893,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x56bc75e2d63100000"
+ <   }
+[2022/12/26 13:42:35.315] -  <   {
+ <     "id": 894,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x0"
+ <   }
+[2022/12/26 13:42:35.316] - eth_getBalance
+[2022/12/26 13:42:35.316] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 895,
+   >   "method": "eth_getBalance",
+   >   "params": [
+   >     "0xd91cf4750fd4bc313f446ca6c9cefc73f728e2c8",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.323] -  <   {
+ <     "id": 895,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x56bc75e2d63100000"
+ <   }
+[2022/12/26 13:42:35.333] - eth_getTransactionCount
+[2022/12/26 13:42:35.334] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 896,
+   >   "method": "eth_getTransactionCount",
+   >   "params": [
+   >     "0xd91cf4750fd4bc313f446ca6c9cefc73f728e2c8",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.337] -  <   {
+ <     "id": 896,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x0"
+ <   }
+[2022/12/26 13:42:35.337] - eth_getBalance
+[2022/12/26 13:42:35.338] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 897,
+   >   "method": "eth_getBalance",
+   >   "params": [
+   >     "0x59f65f88b2507644d74f037d5f0e17012049bdb4",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.341] -  <   {
+ <     "id": 897,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x56bc75e2d63100000"
+ <   }
+[2022/12/26 13:42:35.342] - eth_getTransactionCount
+[2022/12/26 13:42:35.342] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 898,
+   >   "method": "eth_getTransactionCount",
+   >   "params": [
+   >     "0x59f65f88b2507644d74f037d5f0e17012049bdb4",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.344] -  <   {
+ <     "id": 898,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x0"
+ <   }
+[2022/12/26 13:42:35.344] - eth_getBalance
+[2022/12/26 13:42:35.344] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 899,
+   >   "method": "eth_getBalance",
+   >   "params": [
+   >     "0xce66f17aecc6cef73d44aceb5ba7d19e4a17a52f",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.358] - eth_getTransactionCount
+[2022/12/26 13:42:35.359] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 900,
+   >   "method": "eth_getTransactionCount",
+   >   "params": [
+   >     "0xce66f17aecc6cef73d44aceb5ba7d19e4a17a52f",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.359] - eth_getBalance
+[2022/12/26 13:42:35.359] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 901,
+   >   "method": "eth_getBalance",
+   >   "params": [
+   >     "0x133326ef4d171bcbfd90f3fb2acd3e0b0529ecda",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.361] -  <   {
+ <     "id": 899,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x56bc75e2d63100000"
+ <   }
+[2022/12/26 13:42:35.361] - eth_getTransactionCount
+[2022/12/26 13:42:35.362] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 902,
+   >   "method": "eth_getTransactionCount",
+   >   "params": [
+   >     "0x133326ef4d171bcbfd90f3fb2acd3e0b0529ecda",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.362] - eth_getBalance
+[2022/12/26 13:42:35.362] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 903,
+   >   "method": "eth_getBalance",
+   >   "params": [
+   >     "0x5e42cf88b9cb53dd50ff4ae2220f17d9f85b67be",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.363] -  <   {
+ <     "id": 900,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x0"
+ <   }
+[2022/12/26 13:42:35.363] - eth_getTransactionCount
+[2022/12/26 13:42:35.363] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 904,
+   >   "method": "eth_getTransactionCount",
+   >   "params": [
+   >     "0x5e42cf88b9cb53dd50ff4ae2220f17d9f85b67be",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.364] - eth_getBalance
+[2022/12/26 13:42:35.364] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 905,
+   >   "method": "eth_getBalance",
+   >   "params": [
+   >     "0x7cd27f4a8257b7b804997818e46c8a7eb47ba7a4",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.364] - eth_getTransactionCount
+[2022/12/26 13:42:35.364] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 906,
+   >   "method": "eth_getTransactionCount",
+   >   "params": [
+   >     "0x7cd27f4a8257b7b804997818e46c8a7eb47ba7a4",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.365] - eth_getBalance
+[2022/12/26 13:42:35.365] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 907,
+   >   "method": "eth_getBalance",
+   >   "params": [
+   >     "0xe1e266dd361a7ca3b0b6dcdc3296572d0bf8f3a3",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.366] -  <   {
+ <     "id": 901,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x56bc75e2d63100000"
+ <   }
+[2022/12/26 13:42:35.369] -  <   {
+ <     "id": 902,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x0"
+ <   }
+[2022/12/26 13:42:35.372] - eth_getTransactionCount
+[2022/12/26 13:42:35.372] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 908,
+   >   "method": "eth_getTransactionCount",
+   >   "params": [
+   >     "0xe1e266dd361a7ca3b0b6dcdc3296572d0bf8f3a3",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.374] -  <   {
+ <     "id": 903,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x56bc75e2d63100000"
+ <   }
+[2022/12/26 13:42:35.375] - eth_getBalance
+[2022/12/26 13:42:35.375] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 909,
+   >   "method": "eth_getBalance",
+   >   "params": [
+   >     "0xd0df90c6aa57d1695bccb41ddec414702b10343f",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.377] -  <   {
+ <     "id": 904,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x0"
+ <   }
+[2022/12/26 13:42:35.378] - eth_getTransactionCount
+[2022/12/26 13:42:35.379] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 910,
+   >   "method": "eth_getTransactionCount",
+   >   "params": [
+   >     "0xd0df90c6aa57d1695bccb41ddec414702b10343f",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.381] -  <   {
+ <     "id": 905,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x56bc75e2d63100000"
+ <   }
+[2022/12/26 13:42:35.381] - eth_getBalance
+[2022/12/26 13:42:35.381] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 911,
+   >   "method": "eth_getBalance",
+   >   "params": [
+   >     "0x73bd9a472fae66d8c1034f38fcaa4c0431284e4f",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.384] -  <   {
+ <     "id": 906,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x0"
+ <   }
+[2022/12/26 13:42:35.384] - eth_getTransactionCount
+[2022/12/26 13:42:35.385] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 912,
+   >   "method": "eth_getTransactionCount",
+   >   "params": [
+   >     "0x73bd9a472fae66d8c1034f38fcaa4c0431284e4f",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.390] -  <   {
+ <     "id": 907,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x56bc75e2d63100000"
+ <   }
+[2022/12/26 13:42:35.390] - eth_getBalance
+[2022/12/26 13:42:35.391] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 913,
+   >   "method": "eth_getBalance",
+   >   "params": [
+   >     "0x5a5265d3900ff1df1f7e16c295ea26be90cd02fb",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.393] -  <   {
+ <     "id": 908,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x0"
+ <   }
+[2022/12/26 13:42:35.393] - eth_getTransactionCount
+[2022/12/26 13:42:35.394] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 914,
+   >   "method": "eth_getTransactionCount",
+   >   "params": [
+   >     "0x5a5265d3900ff1df1f7e16c295ea26be90cd02fb",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.395] -  <   {
+ <     "id": 909,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x56bc75e2d63100000"
+ <   }
+[2022/12/26 13:42:35.395] - eth_getBalance
+[2022/12/26 13:42:35.396] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 915,
+   >   "method": "eth_getBalance",
+   >   "params": [
+   >     "0xd91cf4750fd4bc313f446ca6c9cefc73f728e2c8",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.397] - eth_getTransactionCount
+[2022/12/26 13:42:35.397] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 916,
+   >   "method": "eth_getTransactionCount",
+   >   "params": [
+   >     "0xd91cf4750fd4bc313f446ca6c9cefc73f728e2c8",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.398] -  <   {
+ <     "id": 910,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x0"
+ <   }
+[2022/12/26 13:42:35.401] -  <   {
+ <     "id": 911,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x56bc75e2d63100000"
+ <   }
+[2022/12/26 13:42:35.401] - eth_getBalance
+[2022/12/26 13:42:35.401] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 917,
+   >   "method": "eth_getBalance",
+   >   "params": [
+   >     "0x59f65f88b2507644d74f037d5f0e17012049bdb4",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.406] -  <   {
+ <     "id": 912,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x0"
+ <   }
+[2022/12/26 13:42:35.406] - eth_getTransactionCount
+[2022/12/26 13:42:35.407] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 918,
+   >   "method": "eth_getTransactionCount",
+   >   "params": [
+   >     "0x59f65f88b2507644d74f037d5f0e17012049bdb4",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.410] -  <   {
+ <     "id": 913,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x56bc75e2d63100000"
+ <   }
+[2022/12/26 13:42:35.410] - eth_getBalance
+[2022/12/26 13:42:35.410] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 919,
+   >   "method": "eth_getBalance",
+   >   "params": [
+   >     "0xce66f17aecc6cef73d44aceb5ba7d19e4a17a52f",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.412] -  <   {
+ <     "id": 914,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x0"
+ <   }
+[2022/12/26 13:42:35.412] - eth_getTransactionCount
+[2022/12/26 13:42:35.412] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 920,
+   >   "method": "eth_getTransactionCount",
+   >   "params": [
+   >     "0xce66f17aecc6cef73d44aceb5ba7d19e4a17a52f",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.415] -  <   {
+ <     "id": 915,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x56bc75e2d63100000"
+ <   }
+[2022/12/26 13:42:35.436] - eth_getBalance
+[2022/12/26 13:42:35.437] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 921,
+   >   "method": "eth_getBalance",
+   >   "params": [
+   >     "0x133326ef4d171bcbfd90f3fb2acd3e0b0529ecda",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.452] -  <   {
+ <     "id": 916,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x0"
+ <   }
+[2022/12/26 13:42:35.452] - eth_getTransactionCount
+[2022/12/26 13:42:35.452] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 922,
+   >   "method": "eth_getTransactionCount",
+   >   "params": [
+   >     "0x133326ef4d171bcbfd90f3fb2acd3e0b0529ecda",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.456] -  <   {
+ <     "id": 917,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x56bc75e2d63100000"
+ <   }
+[2022/12/26 13:42:35.463] - eth_getBalance
+[2022/12/26 13:42:35.463] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 923,
+   >   "method": "eth_getBalance",
+   >   "params": [
+   >     "0x5e42cf88b9cb53dd50ff4ae2220f17d9f85b67be",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.464] - eth_getTransactionCount
+[2022/12/26 13:42:35.464] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 924,
+   >   "method": "eth_getTransactionCount",
+   >   "params": [
+   >     "0x5e42cf88b9cb53dd50ff4ae2220f17d9f85b67be",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.465] -  <   {
+ <     "id": 918,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x0"
+ <   }
+[2022/12/26 13:42:35.466] - eth_getBalance
+[2022/12/26 13:42:35.467] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 925,
+   >   "method": "eth_getBalance",
+   >   "params": [
+   >     "0x7cd27f4a8257b7b804997818e46c8a7eb47ba7a4",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.467] - eth_getTransactionCount
+[2022/12/26 13:42:35.467] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 926,
+   >   "method": "eth_getTransactionCount",
+   >   "params": [
+   >     "0x7cd27f4a8257b7b804997818e46c8a7eb47ba7a4",
+   >     "latest"
+   >   ],
+   >   "internal": true
+   > }
+[2022/12/26 13:42:35.481] -  <   {
+ <     "id": 919,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x56bc75e2d63100000"
+ <   }
+[2022/12/26 13:42:35.497] -  <   {
+ <     "id": 920,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x0"
+ <   }
+[2022/12/26 13:42:35.514] -  <   {
+ <     "id": 921,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x56bc75e2d63100000"
+ <   }
+[2022/12/26 13:42:35.528] -  <   {
+ <     "id": 922,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x0"
+ <   }
+[2022/12/26 13:42:35.548] -  <   {
+ <     "id": 923,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x56bc75e2d63100000"
+ <   }
+[2022/12/26 13:42:35.562] -  <   {
+ <     "id": 924,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x0"
+ <   }
+[2022/12/26 13:42:35.576] -  <   {
+ <     "id": 925,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x56bc75e2d63100000"
+ <   }
+[2022/12/26 13:42:35.592] -  <   {
+ <     "id": 926,
+ <     "jsonrpc": "2.0",
+ <     "result": "0x0"
+ <   }
+[2022/12/26 13:43:33.375] - eth_unsubscribe
+[2022/12/26 13:43:33.376] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 79,
+   >   "method": "eth_unsubscribe",
+   >   "params": [
+   >     "0x3"
+   >   ]
+   > }
+[2022/12/26 13:43:33.376] - eth_unsubscribe
+[2022/12/26 13:43:33.376] -    > {
+   >   "jsonrpc": "2.0",
+   >   "id": 80,
+   >   "method": "eth_unsubscribe",
+   >   "params": [
+   >     "0x4"
+   >   ]
+   > }
+[2022/12/26 13:43:33.378] -  <   {
+ <     "id": 79,
+ <     "jsonrpc": "2.0",
+ <     "result": true
+ <   }
+[2022/12/26 13:43:33.379] -    > {
+   >   "jsonrpc": "2.0",
+   >   "method": "eth_unsubscribe",
+   >   "params": [
+   >     "0x5"
+   >   ],
+   >   "id": 1672040613379
+   > }
+[2022/12/26 13:43:33.380] -    > {
+   >   "jsonrpc": "2.0",
+   >   "method": "eth_unsubscribe",
+   >   "params": [
+   >     "0x4"
+   >   ],
+   >   "id": 1672040613380
+   > }
+[2022/12/26 13:43:33.381] -    > {
+   >   "jsonrpc": "2.0",
+   >   "method": "eth_unsubscribe",
+   >   "params": [
+   >     "0x6"
+   >   ],
+   >   "id": 1672040613380
+   > }
+[2022/12/26 13:43:33.381] -    > {
+   >   "jsonrpc": "2.0",
+   >   "method": "eth_unsubscribe",
+   >   "params": [
+   >     "0x1"
+   >   ],
+   >   "id": 1672040613381
+   > }
+[2022/12/26 13:43:33.382] -    > {
+   >   "jsonrpc": "2.0",
+   >   "method": "eth_unsubscribe",
+   >   "params": [
+   >     "0x2"
+   >   ],
+   >   "id": 1672040613381
+   > }
+[2022/12/26 13:43:33.382] -  <   {
+ <     "id": 80,
+ <     "jsonrpc": "2.0",
+ <     "result": true
+ <   }

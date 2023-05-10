@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang = "EN"  xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <!-- Latest compiled and minified CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Latest compiled JavaScript -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://kit.fontawesome.com/2bc0b5781e.js" crossorigin="anonymous"></script>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <style> @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap'); </style>
+
+        <!-- auto loading pagination jquery cdn -->
+        <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+        <script th:src="@{js\jquery-auto-paggination-plugin\jquery.auto.pagination.min.js}"></script>
+        
+        <link rel="stylesheet" type="text/css" th:href="@{css/index.css}">
+
+        <script>
+          function subscribeNewsLetter() {
+            var inputContent = document.getElementById("newsletter1");
+            
+            if (inputContent === null) {
+              alert("You need to enter your email address to procced furthur.");
+            }
+            alert(inputContent.value);
+          }
+        </script>
+
+
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name = "developer" value = "Md Masud karim"/>
+
+        <title>EthDapp | Home Page</title>
+    </head>
+    <body>
+        <div class ="navbar navbar-expand-sm bg-light navbar-light p-sm-2 shadow-sm">
+            <a href= "/"><img src = "https://cdn.dribbble.com/users/1192832/screenshots/17542965/media/a25c8f616f42f8934462288c1965b1ed.png?compress=1&resize=400x300" alt = "something went wrong" class ="nav-brand rounded-circle" width = "30rem" height = "30rem" /></a>
+            <ul class = "navbar-nav ms-auto">
+              <li class = "nav-item">
+                <div class="dropdown">
+                  <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img class = "cart" th:src = "@{asset/svg/cart.svg}" alt = "Something went wrong"/>
+                  </button>
+                  <ul class="dropdown-menu dropdown-menu-end cart-menu p-sm-2 justify-content-end" aria-labelledby="dropdownMenuButton1">
+                    <!-- <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+
+                    <div class ="d-flex flex-column" style = "height: 100%">
+                      <div style = "height: 80%;overflow-y: auto;">
+                        <div class = "row align-items-center" style = "width: 100%;">
+                          <div class = "col-sm-8">
+                            <div class = "row align-items-center">
+                              <div class = "col-sm-4">
+                                <img class = "rounded-circle" style = "height: 4rem; width: 4rem" src= "https://images.pexels.com/photos/65882/chocolate-dark-coffee-confiserie-65882.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt ="something went wrong"/>
+                              </div>
+                              <div class ="col-sm-8">
+                                <h5>Product Name</h5>
+                                <strong>Company name</strong>
+                              </div>
+                            </div>
+                          </div>
+    
+                          <div class = "col-sm-4 d-flex justify-content-end">
+                            10 X 1200 /=
+                          </div>
+                        </div>
+                        <hr>
+                      </div>
+                      <div class = "d-flex flex-column align-items-end">
+                        <h6>Total : 12000 BDT</h6>
+                        <span><a href = "#">ETH</a> - <a href = "#">BDT</a> - <a href = "#">USD</a></span>
+                      </div>
+                      <button type = "button" class = "btn btn-sm btn-success mt-auto mb-sm-2">View Details</button>
+                      <button type = "button" class = "btn btn-sm btn-danger mt-auto">Place order</button>
+                    </div>
+                  </ul>
+                </div>
+              </li>
+                <li class= "nav-item">
+                    <a href = "/login" class= "nav-link">Login</a>
+                </li>
+
+                <li class = "nav-item">
+                    <a href= "/signup" class= "nav-link">Signup</a>
+                </li>
+
+                
+            </ul>
+
+        </div>
+
+       
+        <div class = "container position-relative d-flex p-sm-2 justify-content-center align-items-center  mt-sm-4 bg-yellow" style = "height: 22rem;">
+
+          <div class = "row gap-sm-5">
+            <div class = "col-sm-8 d-flex flex-column justify-content-center">
+              <h1 class = "get-started-text">A Decentralized book store runs on<br>crypto 🥴</h1>
+              <a href = "/signup" class = "btn btn-success resized-btn mt-sm-4">Get Starged</a>
+            </div>
+            <img class = "col-sm-4 justify-content-end rounded-circle" style = "z-index:1000;height: 15rem;width: 15rem;" th:src="@{asset/image/book image.jpg}"/>
+          </div>
+          <img style = "width: 100%;height: 100%;opacity: .6;z-index: 0.5;pointer-events: none;" class = "position-absolute" th:src="@{asset/image/getting-started-bg.jpg}"/>
+
+        </div>
+
+
+        <div class = "text-center mt-sm-4 d-flex justify-content-center flex-column align-items-center">
+          <hr style ="width: 20rem;">
+          <h5 style = "color : #4f4e4d;font-weight: 400;">Buy book using any crypto currencies<br>Ethereum,bitcoin etc</h5>
+          <hr style ="width: 20rem;">
+        </div>
+
+        <!-- Catagory and product details card section started -->
+        <div class =  "row gap-sm-4 mt-sm-4 justify-content-center" style ="width : 100%;">
+          <button style = "width : 12rem;" class = "col-sm-4 btn btn-danger">
+            Catagory <span class = "badge bg-secondary">120</span>
+          </button>
+
+      </div>
+
+      <h3 class = "text-center mt-sm-4" style ="font-weight: 800;">We have collection of millions of choices</h3>
+      <hr>
+
+      <div class = "container" name = "product-card-container">
+        <div class = "row">
+          <div class = "col-sm-4">
+            <a style = "text-decoration: none;color : black" href = "#">
+              <div class="card hover-to-details" style="width: 18rem;">
+                <img style = "height: 20rem;width : 100%" src = "https://ds.rokomari.store/rokomari110/ProductNew20190903/260X372/illuminati_agenda-Din_Handerson-cbde3-218372.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-center">ইলুমিনাতি এজেন্ডা</h5>
+                  <h6 class="card-title text-center">ডিন হেন্ডারসন</h6>
+                  
+                  <div class = "star-group mt-sm-1 mb-sm-1" name = "star-group">
+                    <img th:src ="@{asset/svg/full-start.svg}" alt = "Something went wrong"/>
+                    <img th:src ="@{asset/svg/full-start.svg}" alt = "Something went wrong"/>
+                    <img th:src ="@{asset/svg/full-start.svg}" alt = "Something went wrong"/>
+                    <img th:src ="@{asset/svg/half-star.svg}" alt = "Something went wrong"/>
+                    <img th:src ="@{asset/svg/empty-star.svg}" alt = "Something went wrong"/>
+                  </div>
+    
+                  <h6 class ="text-success text-center">Product in stock</h6>
+                  <h4 class = "text-center">TK 650</h4>
+                  <h4 class = "text-center">0.023 ETH</h4>
+
+                  <!-- <div class = "card-footer d-flex justify-content-center details-btn">
+                    <a href = "#" class = "btn btn-primary ">View Details</a>
+                  </div> -->
+                </div>
+            </a>
+          </div>
+          
+          </div>
+        </div>
+      </div>
+
+
+        <!-- Footer section started -->
+        <hr>
+        <div class="container">
+            <footer class="py-5">
+              <div class="row">
+                <div class="col-2">
+                  <h5>Section</h5>
+                  <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                  </ul>
+                </div>
+          
+                <div class="col-2">
+                  <h5>Section</h5>
+                  <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                  </ul>
+                </div>
+          
+                <div class="col-2">
+                  <h5>Section</h5>
+                  <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                  </ul>
+                </div>
+          
+                <div class="col-4 offset-1">
+                  <form action = "/subscribenews">
+                    <h5>Subscribe to our newsletter</h5>
+                    <p>Monthly digest of whats new and exciting from us.</p>
+                    <div class="d-flex w-100 gap-2">
+                      <label for="newsletter1" class="visually-hidden">Email address</label>
+                      <input id="newsletter1" type="text" class="form-control" name = "username" placeholder="Email address">
+                      <!-- <button class="btn btn-primary" type="button" onclick="subscribeNewsLetter()">Subscribe</button> -->
+                      <button class="btn btn-primary" type="button" onclick="subscribeNewsLetter()">Subscribe</button>
+
+                    </div>
+                  </form>
+                </div>
+              </div>
+          
+              <div class="d-flex justify-content-between py-4 my-4 border-top">
+                <p>&copy 2023 EthBook, Inc. All rights reserved.</p>
+                <ul class="list-unstyled d-flex">
+                  <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+                  <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+                  <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+                </ul>
+              </div>
+            </footer>
+          </div>
+
+    </body>
+</html>

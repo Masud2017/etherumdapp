@@ -1,0 +1,67 @@
+:root {
+    --bg-yellow : #f5c720;
+}
+
+.bg-yellow {
+    background-color: var(--bg-yellow);
+}
+
+* {
+    font-family: 'Cairo', sans-serif;
+}
+
+.resized-btn {
+    width: 10rem;
+    z-index: 1000;
+}
+
+.get-started-text {
+    font-weight: 800;
+    z-index: 1000;
+}
+
+.star-group {
+    display: flex;
+    gap:0.5rem;
+    justify-content: center;
+}
+
+.star-group img {
+    height: 1.4rem;
+    width: 1.4rem;
+    pointer-events: none;
+    filter: invert(94%) sepia(96%) saturate(3753%) hue-rotate(345deg) brightness(96%) contrast(100%);
+    pointer-events: none;
+}
+
+.hover-to-details {
+    transition: opacity .3s;
+    cursor: pointer;
+}
+
+.details-btn {
+    display: none;
+}
+
+.hover-to-details:hover .details-btn {
+    display: block;
+    opacity: 1;
+}
+
+.hover-to-details:hover{
+    opacity: .6;
+}
+
+.cart {
+    height : 2rem;
+    width: 2rem;
+}
+
+.cart-menu {
+    height:35rem !important;
+    width: 20rem !important;
+    z-index: 1001;
+    background-color: rgba(224, 224, 224, 0.94);
+    border:none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
