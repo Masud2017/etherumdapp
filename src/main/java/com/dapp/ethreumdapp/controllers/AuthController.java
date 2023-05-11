@@ -19,6 +19,7 @@ import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.authentication.WebAuthenticationDetails;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.HttpRequestHandler;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -60,6 +61,7 @@ public class AuthController {
         return "redirect:/login";
     }
 
+    // resource : https://stackoverflow.com/questions/4664893/how-to-manually-set-an-authenticated-user-in-spring-security-springmvc
     @PostMapping(value = "/authenticate")
     public String authenticate(@ModelAttribute LoginForm loginForm, HttpServletRequest request,RedirectAttributes redirectAttributes) {
         User existingUser = null;
@@ -101,8 +103,10 @@ public class AuthController {
         return "redirect:/login";
     }
 
-    @GetMapping(value = "/forgetpassword")
-    public String forgetPassword() {
-        return "Hell world";
+    @GetMapping(value = "/logout")
+    public String logout(HttpServletRequest request) {
+        SecurityContextHolder.getContext().setAuthentication(null);
+        request.setAttribute("SPRING_SECURITY_CONTEXT",null);
+        return "redirect:/";
     }
 }

@@ -40,15 +40,16 @@ public class Config {
 
     @Bean
     public SecurityFilterChain filterChain  (HttpSecurity http) throws Exception {
+        // FIXME: 5/11/2023  this portion of the http url mapper is ignores any error and redirect to the home page
 //        http.
 //                authorizeHttpRequests((requests) -> requests
-//                        .requestMatchers("/", "/login","/registration","/signup","/css/**","/authenticate","/asset/**", "/public/**")
+//                        .requestMatchers("/", "/login","/registration","/signup","/css/**","/authenticate","/asset/**", "/public/**","/logout")
 //                        .permitAll().anyRequest().authenticated())
-//                .formLogin((form) -> form.loginPage("/login")).logout((logout) -> logout.permitAll());
+//                .formLogin((form) -> form.loginPage("/login")).logout((logout) -> logout.permitAll()).csrf();
 
 
         http.
-                authorizeRequests().requestMatchers("/","/login","/signup","/registration","/authenticate","/css/**","/asset/**","/public/**").permitAll().
+                authorizeRequests().requestMatchers("**/","/login","/signup","/registration","/authenticate","/css/**","/asset/**","/public/**","/logout").permitAll().
                 anyRequest().authenticated().and().csrf();
 
 
