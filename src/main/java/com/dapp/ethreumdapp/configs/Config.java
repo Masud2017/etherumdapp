@@ -40,14 +40,20 @@ public class Config {
 
     @Bean
     public SecurityFilterChain filterChain  (HttpSecurity http) throws Exception {
+//        http.
+//                authorizeHttpRequests((requests) -> requests
+//                        .requestMatchers("/", "/login","/registration","/signup","/css/**","/authenticate","/asset/**", "/public/**")
+//                        .permitAll().anyRequest().authenticated())
+//                .formLogin((form) -> form.loginPage("/login")).logout((logout) -> logout.permitAll());
+
 
         http.
-                authorizeHttpRequests((requests) -> requests
-                        .requestMatchers("/", "/login","/registration","/signup","/css/**","/authenticate","/asset/**", "/public/**")
-                        .permitAll().anyRequest().authenticated())
-                .formLogin((form) -> form.loginPage("/login")).logout((logout) -> logout.permitAll());
+                authorizeRequests().requestMatchers("/","/login","/signup","/registration","/authenticate","/css/**","/asset/**","/public/**").permitAll().
+                anyRequest().authenticated().and().csrf();
 
-//                .exceptionHandling().authenticationEntryPoint(authenticationVerifier).and()
+
+//                http.exceptionHandling().authenticationEntryPoint(authenticationVerifier);
+
 
 //        http.addFilterBefore(jwtRequestFilter, UsernamePasswordAuthenticationFilter.class);
 

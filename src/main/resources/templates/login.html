@@ -30,16 +30,17 @@
         </div>
 
         <div class = "p-sm-4" style = "display: flex;justify-content: center;align-items: center;height: 80vh;width: 98vw;">
-            <form class = "bg-light shadow-lg p-sm-4" style = "width: 25rem;"  method = "post" action = "/userlogin">
+            <form class = "bg-light shadow-lg p-sm-4" style = "width: 25rem;"  method = "post" action = "/authenticate">
+                <div class = "bg-danger p-sm-4"  th:if="${message}"><span th:text="${message}" class = "text-light"></span></div>
                 <div class = "form-group">
-                    <label for = "name" class = "form-label">
+                    <label for = "id" class = "form-label">
                     </label>
                     <div class = "input-group">
                         <div class ="input-group-append m-sm-1">
                             <span class= "ms-n5"></span>
                             <i class="fa fa-user align-middle"></i>
                         </div>
-                        <input type = "text" placeholder="Enter your full name" class = "form-control border-start-0 border" name ="name" id = "name"/>
+                        <input type = "text" placeholder="Enter your email or userid" class = "form-control border-start-0 border" name ="id" id = "id"/>
                     </div>
                 </div>
                 
@@ -53,9 +54,14 @@
                             </span>
                             
                         </div>
-                        <input type = "password" placeholder="Enter your password" class = "form-control border-start-0 border" name ="pass" id = "pass"/>
+                        <input type = "password" placeholder="Enter your password" class = "form-control border-start-0 border" name ="password" id = "pass"/>
                     </div>
                 </div>
+
+                <input
+                        type="hidden"
+                        th:name="${_csrf.parameterName}"
+                        th:value="${_csrf.token}" />
 
                 <div class= "form-group">
                         <!-- <div class ="input-group mt-sm-4"> -->
@@ -64,8 +70,9 @@
                                     <i class="fa-sharp fa fa-arrow-right"></i>
                                 </span>
                             </div> -->
-                            <input type = "submit" value ="Login" class = "form-control btn btn-danger border-start-0 border mt-sm-4" name ="pass" id = "pass"/>
+                            <input type = "submit" value ="Login" class = "form-control btn btn-danger border-start-0 border mt-sm-4"/>
                     <!-- </div> -->
+                </div>
             </form>
         </div>
     </body>
