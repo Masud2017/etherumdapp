@@ -49,7 +49,7 @@ public class Config {
 
 
         http.
-                authorizeRequests().requestMatchers("**/","/login","/signup","/registration","/authenticate","/css/**","/asset/**","/public/**","/logout").permitAll().
+                authorizeRequests().requestMatchers("**/","/login","/signup","/registration","/authenticate","/css/**","/asset/**","/public/**","/logout","/").permitAll().
                 anyRequest().authenticated().and().csrf();
 
 
